@@ -1,34 +1,21 @@
 # Secrets / local env
 .env
 .env.local
-*.local
+
+# WorkBuddy（本地接入文档与环境，不入库）
+*WorkBuddy*
+.env.buddy*
 
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.egg-info/
-.eggs/
 dist/
 build/
-*.egg
 .venv/
 venv/
-.envrc
 
 # Test / lint caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.coverage
-htmlcov/
-.tox/
-
-# IDE / OS
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-
-# Agent tooling
-.codegraph/
